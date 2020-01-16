@@ -32,8 +32,9 @@ ActiveRecord::Schema.define(version: 2020_01_16_192926) do
 
   create_table "videos", force: :cascade do |t|
     t.string "title"
-    t.string "video_url"
+    t.string "key"
     t.string "description"
+    t.string "publisher"
     t.bigint "language_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
