@@ -8,6 +8,10 @@ Rails.application.routes.draw do
   #     headers: :any ,
   #     methods: [:get, :post, :put, :patch, :delete, :options, :head]
   # end 
+
+  resources :languages, :videos, :comments
+
+
 end
 
 
