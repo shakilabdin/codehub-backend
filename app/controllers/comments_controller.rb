@@ -2,7 +2,11 @@ class CommentsController < ApplicationController
 
     def index 
         comments = Comment.all 
-        render json: comments 
+        if comments
+            render json: comments
+        else
+            render json: {message: "API IS CURRENTLY DOWN"}
+        end 
     end
 
     def show

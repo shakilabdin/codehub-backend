@@ -2,12 +2,20 @@ class VideosController < ApplicationController
 
     def index 
         videos = Video.all 
-        render json: videos 
+        if videos 
+            render json: videos 
+        else  
+            render json: {message: "API IS CURRENTLY DOWN"}
+        end
     end
 
     def show 
         video = Video.find(params[:id])
-        render json: video
+        if video 
+            render json: video
+        else
+            render json: {message: "API IS CURRENTLY DOWN"}
+        end
     end
 
     def create

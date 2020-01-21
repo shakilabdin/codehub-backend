@@ -2,7 +2,11 @@ class LanguagesController < ApplicationController
 
     def index
         langauges = Language.all 
-        render json: langauges
+        if langauges 
+            render json: langauges
+        else
+            render json: {message: "API IS CURRENTLY DOWN"}
+        end
     end
 
 end
