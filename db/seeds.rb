@@ -33,11 +33,11 @@ Subscribe to Me: http://bit.ly/2FWQZTx
 Best Book on JavaScript : http://amzn.to/1WbMYvm")
 js_video8 = Video.create(language_id: js.id, publisher: "Programming with Mosh", title: "JavaScript this Keyword", key: "gvicrj31JOM", description: "JavaScript this Keyword")
 js_video9 = Video.create(language_id: js.id, publisher: "Dev Ed", title: "Javascript Dom Manipulation | Javascript Tutorial For Beginners", key: "wiozYyXQEVk", description: "Javascript Dom Manipulation | Javascript Tutorial For Beginners
-
 In this video series we are going to learn modern javascript from scratch. This video is recommended for anyone wanting to learn javascript the modern way with ES2015. No previous programming knowledge is required, so this video series will help you learn javascript as your first programming language.")
 js_video10 = Video.create(language_id: js.id, publisher: "Code School", title: "Intermediate JavaScript Tutorial (Level 1)", key: "jGV8etzFF_w", description: "Play the remainder of Code School's JavaScript Road Trip Part 3 course here: 
 https://www.codeschool.com/courses/ja...
 Code School is now Pluralsight! Enjoy all the learning experiences you've come to love from Code School on Pluralsight and MORE! Gain access to THOUSANDS more expert-led courses.")
+js_video11 = Video.create(language_id: js.id, publisher: "Traversy Media", title: "Jest Crash Course - Unit Testing in JavaScript", key: "7r4xVDI2vho", description: "In this video we will get started with JavaScript unit testing using Jest. We will look at how to setup Jest, different matchers as well as how to test async code, run functions before and after different tests, etc. This is for developers that are fairly new to testing and the Jest testing framework.")
 
 
 python_video1 = Video.create(language_id: python.id, publisher: "freeCodeCamp.org", title: "Learn Python - Full Course for Beginners [Tutorial]", key: "rfscVS0vtbw", description: "This course will give you a full introduction into all of the core concepts in python. Follow along with the videos and you'll be a python programmer in no time!")
@@ -66,6 +66,7 @@ ruby_video7 = Video.create(language_id: ruby.id, publisher: "Peter Cooper", titl
 ruby_video8 = Video.create(language_id: ruby.id, publisher: "Seth Alexander", title: "Advanced Data Structures in Ruby", key: "8NwtqFzC-7o", description: "Looking at some of the less known and uncommon data structures that Ruby provides to us.")
 ruby_video9 = Video.create(language_id: ruby.id, publisher: "CS50", title: "Ruby on Rails by Leila Hofer", key: "gTBCHu0btn8", description: "Ruby on rails is an open source web development framework that is one of the most popular frameworks on the web. Rails has a lot to offer, but this seminar will focus on an introduction to rails and how to get a functional website up and running. It will review Model View Controller (MVC – you’ll be learning about this soon!) architecture and how to implement a basic MVC in Rails.")
 ruby_video10 = Video.create(language_id: ruby.id, publisher: "MrMerchant Co.", title: "Complete Step By Step Ruby on Rails Tutorial ( By MrMerchant Co. )", key: "eeoUVHnVuGA", description: "Ruby on Rails, or Rails, is a server-side web application framework written in Ruby under the MIT License. Rail is a model–view–controller framework, providing default structures for a database, a web service, and web pages.")
+ruby_video11 = Video.create(language_id: ruby.id, publisher: "Tony", title: "Intro to Object Oriented Ruby", key: "SPWq1BR4OQw", description: "A video of a lead instructor at flatiron teaching his promising students what object-oriented ruby is.")
 
 java_video1 = Video.create(language_id: java.id, publisher: "Programming with Mosh
 ", title: "Java Tutorial for Beginners [2019]", key: "eIrMbAQSU34", description: "Java tutorial for beginners - Learn Java, the language behind millions of apps and websites. 
